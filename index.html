@@ -3,19 +3,29 @@
 <body>
   <h1>GitHub Notes</h1>
   <h2>Lets start with some basics:</h2>
-  <p>-Fork is a copy of repository. 
-    Forking a repository allows you to freely experiment with changes without affecting the original project. 
-   Used by accounts different from the owner of the repo.
--	Branches allow you to develop features, fix bugs, or experiment with new ideas in contained area of your repo. 
-    Branch is always created from an existing branch (typically main/master/default branch).
--	Open issue can be closed by placing in the commit “fixes #5” (5 is for example) or by placing the hash code.
--	Pull requests let you tell others about changes you`ve pushed to a branch in a repository in GitHub.
--	Merge a pull request into the upstream branch when work is completed. 
-    Anyone with push access to the repository can complete the merge.
--	Clone a repository by pulling it from remote location on your PC, edit it and push it back to the server.
--	Cloning is taking (pulling) repository from a web server on your local machine then you can push it back. </p>
+  <p>- Fork is a copy of repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Used by accounts different from the owner of the repo.</p>
+  <p>- Branches allow you to develop features, fix bugs, or experiment with new ideas in contained area of your repo. Branch is always created from an existing branch (typically main/master/default branch).</p>
+  <p>- Open issue can be closed by placing in the commit “fixes #5” (5 is for example) or by placing the hash code.</p>
+  <p>- Pull requests let you tell others about changes you`ve pushed to a branch in a repository in GitHub.</p>
+  <p>- Merge a pull request into the upstream branch when work is completed. Anyone with push access to the repository can complete the merge.</p>
+  <p>- Clone a repository by pulling it from remote location on your PC, edit it and push it back to the server.</p>
+  <p>- Cloning is taking (pulling) repository from a web server on your local machine then you can push it back.</p>
   
   <h2>Common used comands:</h2>
+  <p><strong>git clone</strong> https://github.com/Keratsin/terraform_son.git clones the repo via http on your local machine.</p>  
+  <p>git config --global user.name “username” set Git username git config –global user.email “email” set Git email.</p>
+  <p>git config --list shows credentials that are set on the terminal. </p>                     
+  <p>git log show history of the commits.</p>
+  <p>git commit -a -m “message for the -m flag” -a is for amend the changes, commit = save </p>
+  <p>git remote -v lists remotes associated to the project with URL (-v) </p> 
+  <p>git branch shows the branch associated with. </p>
+  <p>git push/pull  origin master origin is default name given for remote, master is the branch </p> 
+  <p>git init initialize directory on your local machine as git repository </p>
+  <p>git add . adds anything detected as changed.</p>
+  <p>git add “file” adds file to the staging area before being commit</p>
+  <p>git status shows the files in staging area</p>
+  <p>git remote add origin https://from_github.com while creating repo on the terminal assign remote origin</p>
+
   <body>
 
 </html>
